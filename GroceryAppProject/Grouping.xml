@@ -1,0 +1,15 @@
+<suite name="MyTestSuite">
+	<test name="MyTestForGroceryApplication">
+	<parameter name="browser" value="chrome"> </parameter>
+		<groups>
+			<run>
+				<include name="critical">
+				</include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="testCases.GLoginPageTestCase"></class>
+		</classes>
+	</test>
+</suite>
